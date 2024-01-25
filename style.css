@@ -1,0 +1,113 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(221, 239, 239);
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 600px;
+    margin: 120px auto;
+    padding: 20px;
+    background-color: rgb(221, 239, 239);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+h1{
+    color: rgba(51, 51, 51, 1);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+input[type="text"]{
+    flex-grow: 1;
+    padding: 5px;
+    border: none;
+    font-size: 16px;
+    border-radius: 0;
+    outline: 0;
+    transition: border-color 0.3 ease;
+}
+
+input[type= "text"]:focus{
+    border-color: rgb(108, 108, 216);
+}
+
+button{
+    padding: 5px 12px;
+    background-color: rgb(108, 108, 216);
+    color: rgb(221, 239, 239);
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: rgba(51, 51, 51, 1);
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    background-color: rgb(221, 239, 239);
+    border: 1px solid rgb(192, 205, 205);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.delete-button{
+    background-color: rgb(242, 23, 67);
+    color: rgb(221, 239, 239);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: rgba(51, 51, 51, 1);
+}
+
+
+.edit-button{
+    background-color: rgba(51, 51, 51, 1);
+    color: rgb(221, 239, 239);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 10xp;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+ background-color: rgb(242, 23, 67);
+}
+
+
+
+
+.completed {
+    text-decoration: line-through;
+    color: rgba(128, 128, 128, 0.8); 
+}
+
+
